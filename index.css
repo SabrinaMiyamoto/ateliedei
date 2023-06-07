@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #010836;
+    color: rgb(255, 241, 142);
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.brand{
+    width: 9.375rem;
+    height: 9.375rem;
+}
+.who-we-are{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    font-size: 0.875rem;
+}
+h1{
+    color: rgb(255, 241, 142);
+    padding: 16px;  
+}
+h2{
+    width: 17.5rem;
+    position: relative;
+    color: rgb(255, 241, 142);
+    padding: 0 1rem;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}   
+a{
+    text-decoration: none;
+    background-color: rgb(2, 18, 117);
+}
+.instagram{
+    width: 14.063rem;
+    height: 3.438rem;
+    background-color: rgb(2, 18, 117);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    position: relative;
+    text-decoration: none;
+}
+.facebook{
+    width: 14.063rem;
+    height: 3.438rem;
+    background-color: rgb(2, 18, 117);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    position: relative;
+    text-decoration: none;
+    margin-top: 0.125rem;
+}
+.whatsapp{
+    width: 14.063rem;
+    height: 3.438rem;
+    background-color: rgb(2, 18, 117);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    position: relative;
+    text-decoration: none;
+    margin-top: 0.125rem;
+}
